@@ -21,7 +21,7 @@ namespace M_MiSideLanguageEditor_C_
     {
         //变量==================================================
         public const string WindowTitle = "米塔语言编辑器";
-        public const string Version = "Pre-Release0.1.0.0";
+        public const string Version = "Beta1.0.0.0";
         public static string MisidePath = "Unknown";
         public static string LangPath = "Unknown";
         public static int EggTemp = 0;
@@ -33,6 +33,7 @@ namespace M_MiSideLanguageEditor_C_
         {
             InitializeComponent();
             this.Text = WindowTitle + Version;
+            MessageBox.Show("此版本为测试版本，很多功能不齐全，请谨慎使用!", "注意", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
         }
         //Functions============================================
@@ -1239,7 +1240,7 @@ namespace M_MiSideLanguageEditor_C_
 
         private void 更新日志ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Pre-Release0.1.0.0更新日志:\n  -更新了你所看到的所有东西", "更新日志", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Beta1.0.0.0更新日志:\n  -更新了你所看到的所有东西", "更新日志", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
     }

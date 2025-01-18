@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("M_MiSideLanguageEditor_C#")]
+[assembly: AssemblyProduct("MiSideLanguageEditor")]
 [assembly: AssemblyCopyright("HuaZi-华子 版权所有 Copyright ©  2024-2025 盗版必究")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
