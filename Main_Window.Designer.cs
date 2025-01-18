@@ -117,82 +117,83 @@
             this.groupBox_Talk = new System.Windows.Forms.GroupBox();
             this.tabControl_DLocation = new System.Windows.Forms.TabControl();
             this.tabPage01 = new System.Windows.Forms.TabPage();
-            this.tabPage02 = new System.Windows.Forms.TabPage();
-            this.tabPage03 = new System.Windows.Forms.TabPage();
-            this.tabPage04 = new System.Windows.Forms.TabPage();
-            this.tabPage05 = new System.Windows.Forms.TabPage();
-            this.tabPage06 = new System.Windows.Forms.TabPage();
-            this.tabPage07 = new System.Windows.Forms.TabPage();
-            this.tabPage08 = new System.Windows.Forms.TabPage();
-            this.tabPage09 = new System.Windows.Forms.TabPage();
-            this.tabPage010 = new System.Windows.Forms.TabPage();
-            this.tabPage011 = new System.Windows.Forms.TabPage();
-            this.tabPage012 = new System.Windows.Forms.TabPage();
-            this.tabPage013 = new System.Windows.Forms.TabPage();
-            this.tabPage014 = new System.Windows.Forms.TabPage();
-            this.tabPage015 = new System.Windows.Forms.TabPage();
-            this.tabPage017 = new System.Windows.Forms.TabPage();
-            this.tabPage018 = new System.Windows.Forms.TabPage();
-            this.tabPage019 = new System.Windows.Forms.TabPage();
-            this.tabPage020 = new System.Windows.Forms.TabPage();
-            this.timer_Egg = new System.Windows.Forms.Timer(this.components);
-            this.listBox_DLocation1 = new System.Windows.Forms.ListBox();
-            this.textBox_DLocation1 = new System.Windows.Forms.TextBox();
             this.label_DLocation1 = new System.Windows.Forms.Label();
+            this.textBox_DLocation1 = new System.Windows.Forms.TextBox();
+            this.listBox_DLocation1 = new System.Windows.Forms.ListBox();
+            this.tabPage02 = new System.Windows.Forms.TabPage();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox_DLocation2 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation2 = new System.Windows.Forms.ListBox();
+            this.tabPage03 = new System.Windows.Forms.TabPage();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox_DLocation3 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation3 = new System.Windows.Forms.ListBox();
+            this.tabPage04 = new System.Windows.Forms.TabPage();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox_DLocation4 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation4 = new System.Windows.Forms.ListBox();
+            this.tabPage05 = new System.Windows.Forms.TabPage();
             this.label10 = new System.Windows.Forms.Label();
             this.textBox_DLocation5 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation5 = new System.Windows.Forms.ListBox();
+            this.tabPage06 = new System.Windows.Forms.TabPage();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox_DLocation6 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation6 = new System.Windows.Forms.ListBox();
+            this.tabPage07 = new System.Windows.Forms.TabPage();
             this.label12 = new System.Windows.Forms.Label();
             this.textBox_DLocation7 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation7 = new System.Windows.Forms.ListBox();
+            this.tabPage08 = new System.Windows.Forms.TabPage();
             this.label13 = new System.Windows.Forms.Label();
             this.textBox_DLocation8 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation8 = new System.Windows.Forms.ListBox();
+            this.tabPage09 = new System.Windows.Forms.TabPage();
             this.label14 = new System.Windows.Forms.Label();
             this.textBox_DLocation9 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation9 = new System.Windows.Forms.ListBox();
+            this.tabPage010 = new System.Windows.Forms.TabPage();
             this.label15 = new System.Windows.Forms.Label();
             this.textBox_DLocation10 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation10 = new System.Windows.Forms.ListBox();
+            this.tabPage011 = new System.Windows.Forms.TabPage();
             this.label16 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation11 = new System.Windows.Forms.ListBox();
+            this.tabPage012 = new System.Windows.Forms.TabPage();
             this.label17 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation12 = new System.Windows.Forms.ListBox();
+            this.tabPage013 = new System.Windows.Forms.TabPage();
             this.label18 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation13 = new System.Windows.Forms.ListBox();
+            this.tabPage014 = new System.Windows.Forms.TabPage();
             this.label19 = new System.Windows.Forms.Label();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation14 = new System.Windows.Forms.ListBox();
+            this.tabPage015 = new System.Windows.Forms.TabPage();
             this.label20 = new System.Windows.Forms.Label();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation15 = new System.Windows.Forms.ListBox();
+            this.tabPage017 = new System.Windows.Forms.TabPage();
             this.label21 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation17 = new System.Windows.Forms.ListBox();
+            this.tabPage018 = new System.Windows.Forms.TabPage();
             this.label22 = new System.Windows.Forms.Label();
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation18 = new System.Windows.Forms.ListBox();
+            this.tabPage019 = new System.Windows.Forms.TabPage();
             this.label23 = new System.Windows.Forms.Label();
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation19 = new System.Windows.Forms.ListBox();
+            this.tabPage020 = new System.Windows.Forms.TabPage();
             this.label24 = new System.Windows.Forms.Label();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation20 = new System.Windows.Forms.ListBox();
+            this.timer_Egg = new System.Windows.Forms.Timer(this.components);
+            this.更新日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox_LanguageList.SuspendLayout();
             this.groupBox_LanguageSetting.SuspendLayout();
@@ -260,6 +261,7 @@
             // 
             this.关于ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.最终协议ToolStripMenuItem,
+            this.更新日志ToolStripMenuItem,
             this.关于程序ToolStripMenuItem});
             this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
             this.关于ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
@@ -268,14 +270,14 @@
             // 最终协议ToolStripMenuItem
             // 
             this.最终协议ToolStripMenuItem.Name = "最终协议ToolStripMenuItem";
-            this.最终协议ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.最终协议ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.最终协议ToolStripMenuItem.Text = "最终协议";
             this.最终协议ToolStripMenuItem.Click += new System.EventHandler(this.最终协议ToolStripMenuItem_Click);
             // 
             // 关于程序ToolStripMenuItem
             // 
             this.关于程序ToolStripMenuItem.Name = "关于程序ToolStripMenuItem";
-            this.关于程序ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.关于程序ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.关于程序ToolStripMenuItem.Text = "关于程序";
             this.关于程序ToolStripMenuItem.Click += new System.EventHandler(this.关于程序ToolStripMenuItem_Click);
             // 
@@ -1145,6 +1147,33 @@
             this.tabPage01.Text = "Location1";
             this.tabPage01.UseVisualStyleBackColor = true;
             // 
+            // label_DLocation1
+            // 
+            this.label_DLocation1.AutoSize = true;
+            this.label_DLocation1.Location = new System.Drawing.Point(354, 22);
+            this.label_DLocation1.Name = "label_DLocation1";
+            this.label_DLocation1.Size = new System.Drawing.Size(62, 17);
+            this.label_DLocation1.TabIndex = 2;
+            this.label_DLocation1.Text = "→修改为↓";
+            // 
+            // textBox_DLocation1
+            // 
+            this.textBox_DLocation1.Enabled = false;
+            this.textBox_DLocation1.Location = new System.Drawing.Point(354, 42);
+            this.textBox_DLocation1.Name = "textBox_DLocation1";
+            this.textBox_DLocation1.Size = new System.Drawing.Size(184, 23);
+            this.textBox_DLocation1.TabIndex = 1;
+            this.textBox_DLocation1.Text = "Unknown";
+            // 
+            // listBox_DLocation1
+            // 
+            this.listBox_DLocation1.FormattingEnabled = true;
+            this.listBox_DLocation1.ItemHeight = 17;
+            this.listBox_DLocation1.Location = new System.Drawing.Point(6, 6);
+            this.listBox_DLocation1.Name = "listBox_DLocation1";
+            this.listBox_DLocation1.Size = new System.Drawing.Size(342, 89);
+            this.listBox_DLocation1.TabIndex = 0;
+            // 
             // tabPage02
             // 
             this.tabPage02.Controls.Add(this.label7);
@@ -1157,242 +1186,6 @@
             this.tabPage02.TabIndex = 1;
             this.tabPage02.Text = "Location2";
             this.tabPage02.UseVisualStyleBackColor = true;
-            // 
-            // tabPage03
-            // 
-            this.tabPage03.Controls.Add(this.label8);
-            this.tabPage03.Controls.Add(this.textBox_DLocation3);
-            this.tabPage03.Controls.Add(this.listBox_DLocation3);
-            this.tabPage03.Location = new System.Drawing.Point(4, 26);
-            this.tabPage03.Name = "tabPage03";
-            this.tabPage03.Size = new System.Drawing.Size(544, 101);
-            this.tabPage03.TabIndex = 2;
-            this.tabPage03.Text = "Location3";
-            this.tabPage03.UseVisualStyleBackColor = true;
-            // 
-            // tabPage04
-            // 
-            this.tabPage04.Controls.Add(this.label9);
-            this.tabPage04.Controls.Add(this.textBox_DLocation4);
-            this.tabPage04.Controls.Add(this.listBox_DLocation4);
-            this.tabPage04.Location = new System.Drawing.Point(4, 26);
-            this.tabPage04.Name = "tabPage04";
-            this.tabPage04.Size = new System.Drawing.Size(544, 101);
-            this.tabPage04.TabIndex = 3;
-            this.tabPage04.Text = "Location4";
-            this.tabPage04.UseVisualStyleBackColor = true;
-            // 
-            // tabPage05
-            // 
-            this.tabPage05.Controls.Add(this.label10);
-            this.tabPage05.Controls.Add(this.textBox_DLocation5);
-            this.tabPage05.Controls.Add(this.listBox_DLocation5);
-            this.tabPage05.Location = new System.Drawing.Point(4, 26);
-            this.tabPage05.Name = "tabPage05";
-            this.tabPage05.Size = new System.Drawing.Size(544, 101);
-            this.tabPage05.TabIndex = 4;
-            this.tabPage05.Text = "Location5";
-            this.tabPage05.UseVisualStyleBackColor = true;
-            // 
-            // tabPage06
-            // 
-            this.tabPage06.Controls.Add(this.label11);
-            this.tabPage06.Controls.Add(this.textBox_DLocation6);
-            this.tabPage06.Controls.Add(this.listBox_DLocation6);
-            this.tabPage06.Location = new System.Drawing.Point(4, 26);
-            this.tabPage06.Name = "tabPage06";
-            this.tabPage06.Size = new System.Drawing.Size(544, 101);
-            this.tabPage06.TabIndex = 5;
-            this.tabPage06.Text = "Location6";
-            this.tabPage06.UseVisualStyleBackColor = true;
-            // 
-            // tabPage07
-            // 
-            this.tabPage07.Controls.Add(this.label12);
-            this.tabPage07.Controls.Add(this.textBox_DLocation7);
-            this.tabPage07.Controls.Add(this.listBox_DLocation7);
-            this.tabPage07.Location = new System.Drawing.Point(4, 26);
-            this.tabPage07.Name = "tabPage07";
-            this.tabPage07.Size = new System.Drawing.Size(544, 101);
-            this.tabPage07.TabIndex = 6;
-            this.tabPage07.Text = "Location7";
-            this.tabPage07.UseVisualStyleBackColor = true;
-            // 
-            // tabPage08
-            // 
-            this.tabPage08.Controls.Add(this.label13);
-            this.tabPage08.Controls.Add(this.textBox_DLocation8);
-            this.tabPage08.Controls.Add(this.listBox_DLocation8);
-            this.tabPage08.Location = new System.Drawing.Point(4, 26);
-            this.tabPage08.Name = "tabPage08";
-            this.tabPage08.Size = new System.Drawing.Size(544, 101);
-            this.tabPage08.TabIndex = 7;
-            this.tabPage08.Text = "Location8";
-            this.tabPage08.UseVisualStyleBackColor = true;
-            // 
-            // tabPage09
-            // 
-            this.tabPage09.Controls.Add(this.label14);
-            this.tabPage09.Controls.Add(this.textBox_DLocation9);
-            this.tabPage09.Controls.Add(this.listBox_DLocation9);
-            this.tabPage09.Location = new System.Drawing.Point(4, 26);
-            this.tabPage09.Name = "tabPage09";
-            this.tabPage09.Size = new System.Drawing.Size(544, 101);
-            this.tabPage09.TabIndex = 8;
-            this.tabPage09.Text = "Location9";
-            this.tabPage09.UseVisualStyleBackColor = true;
-            // 
-            // tabPage010
-            // 
-            this.tabPage010.Controls.Add(this.label15);
-            this.tabPage010.Controls.Add(this.textBox_DLocation10);
-            this.tabPage010.Controls.Add(this.listBox_DLocation10);
-            this.tabPage010.Location = new System.Drawing.Point(4, 26);
-            this.tabPage010.Name = "tabPage010";
-            this.tabPage010.Size = new System.Drawing.Size(544, 101);
-            this.tabPage010.TabIndex = 9;
-            this.tabPage010.Text = "Location10";
-            this.tabPage010.UseVisualStyleBackColor = true;
-            // 
-            // tabPage011
-            // 
-            this.tabPage011.Controls.Add(this.label16);
-            this.tabPage011.Controls.Add(this.textBox10);
-            this.tabPage011.Controls.Add(this.listBox_DLocation11);
-            this.tabPage011.Location = new System.Drawing.Point(4, 26);
-            this.tabPage011.Name = "tabPage011";
-            this.tabPage011.Size = new System.Drawing.Size(544, 101);
-            this.tabPage011.TabIndex = 10;
-            this.tabPage011.Text = "Location11";
-            this.tabPage011.UseVisualStyleBackColor = true;
-            // 
-            // tabPage012
-            // 
-            this.tabPage012.Controls.Add(this.label17);
-            this.tabPage012.Controls.Add(this.textBox11);
-            this.tabPage012.Controls.Add(this.listBox_DLocation12);
-            this.tabPage012.Location = new System.Drawing.Point(4, 26);
-            this.tabPage012.Name = "tabPage012";
-            this.tabPage012.Size = new System.Drawing.Size(544, 101);
-            this.tabPage012.TabIndex = 11;
-            this.tabPage012.Text = "Location12";
-            this.tabPage012.UseVisualStyleBackColor = true;
-            // 
-            // tabPage013
-            // 
-            this.tabPage013.Controls.Add(this.label18);
-            this.tabPage013.Controls.Add(this.textBox12);
-            this.tabPage013.Controls.Add(this.listBox_DLocation13);
-            this.tabPage013.Location = new System.Drawing.Point(4, 26);
-            this.tabPage013.Name = "tabPage013";
-            this.tabPage013.Size = new System.Drawing.Size(544, 101);
-            this.tabPage013.TabIndex = 12;
-            this.tabPage013.Text = "Location13";
-            this.tabPage013.UseVisualStyleBackColor = true;
-            // 
-            // tabPage014
-            // 
-            this.tabPage014.Controls.Add(this.label19);
-            this.tabPage014.Controls.Add(this.textBox13);
-            this.tabPage014.Controls.Add(this.listBox_DLocation14);
-            this.tabPage014.Location = new System.Drawing.Point(4, 26);
-            this.tabPage014.Name = "tabPage014";
-            this.tabPage014.Size = new System.Drawing.Size(544, 101);
-            this.tabPage014.TabIndex = 13;
-            this.tabPage014.Text = "Location14";
-            this.tabPage014.UseVisualStyleBackColor = true;
-            // 
-            // tabPage015
-            // 
-            this.tabPage015.Controls.Add(this.label20);
-            this.tabPage015.Controls.Add(this.textBox14);
-            this.tabPage015.Controls.Add(this.listBox_DLocation15);
-            this.tabPage015.Location = new System.Drawing.Point(4, 26);
-            this.tabPage015.Name = "tabPage015";
-            this.tabPage015.Size = new System.Drawing.Size(544, 101);
-            this.tabPage015.TabIndex = 14;
-            this.tabPage015.Text = "Location15";
-            this.tabPage015.UseVisualStyleBackColor = true;
-            // 
-            // tabPage017
-            // 
-            this.tabPage017.Controls.Add(this.label21);
-            this.tabPage017.Controls.Add(this.textBox15);
-            this.tabPage017.Controls.Add(this.listBox_DLocation17);
-            this.tabPage017.Location = new System.Drawing.Point(4, 26);
-            this.tabPage017.Name = "tabPage017";
-            this.tabPage017.Size = new System.Drawing.Size(544, 101);
-            this.tabPage017.TabIndex = 15;
-            this.tabPage017.Text = "Location17";
-            this.tabPage017.UseVisualStyleBackColor = true;
-            // 
-            // tabPage018
-            // 
-            this.tabPage018.Controls.Add(this.label22);
-            this.tabPage018.Controls.Add(this.textBox16);
-            this.tabPage018.Controls.Add(this.listBox_DLocation18);
-            this.tabPage018.Location = new System.Drawing.Point(4, 26);
-            this.tabPage018.Name = "tabPage018";
-            this.tabPage018.Size = new System.Drawing.Size(544, 101);
-            this.tabPage018.TabIndex = 16;
-            this.tabPage018.Text = "Location18";
-            this.tabPage018.UseVisualStyleBackColor = true;
-            // 
-            // tabPage019
-            // 
-            this.tabPage019.Controls.Add(this.label23);
-            this.tabPage019.Controls.Add(this.textBox17);
-            this.tabPage019.Controls.Add(this.listBox_DLocation19);
-            this.tabPage019.Location = new System.Drawing.Point(4, 26);
-            this.tabPage019.Name = "tabPage019";
-            this.tabPage019.Size = new System.Drawing.Size(544, 101);
-            this.tabPage019.TabIndex = 17;
-            this.tabPage019.Text = "Location19";
-            this.tabPage019.UseVisualStyleBackColor = true;
-            // 
-            // tabPage020
-            // 
-            this.tabPage020.Controls.Add(this.label24);
-            this.tabPage020.Controls.Add(this.textBox18);
-            this.tabPage020.Controls.Add(this.listBox_DLocation20);
-            this.tabPage020.Location = new System.Drawing.Point(4, 26);
-            this.tabPage020.Name = "tabPage020";
-            this.tabPage020.Size = new System.Drawing.Size(544, 101);
-            this.tabPage020.TabIndex = 18;
-            this.tabPage020.Text = "Location20";
-            this.tabPage020.UseVisualStyleBackColor = true;
-            // 
-            // timer_Egg
-            // 
-            this.timer_Egg.Interval = 1;
-            this.timer_Egg.Tick += new System.EventHandler(this.timer_Egg_Tick);
-            // 
-            // listBox_DLocation1
-            // 
-            this.listBox_DLocation1.FormattingEnabled = true;
-            this.listBox_DLocation1.ItemHeight = 17;
-            this.listBox_DLocation1.Location = new System.Drawing.Point(6, 6);
-            this.listBox_DLocation1.Name = "listBox_DLocation1";
-            this.listBox_DLocation1.Size = new System.Drawing.Size(342, 89);
-            this.listBox_DLocation1.TabIndex = 0;
-            // 
-            // textBox_DLocation1
-            // 
-            this.textBox_DLocation1.Enabled = false;
-            this.textBox_DLocation1.Location = new System.Drawing.Point(354, 42);
-            this.textBox_DLocation1.Name = "textBox_DLocation1";
-            this.textBox_DLocation1.Size = new System.Drawing.Size(184, 23);
-            this.textBox_DLocation1.TabIndex = 1;
-            this.textBox_DLocation1.Text = "Unknown";
-            // 
-            // label_DLocation1
-            // 
-            this.label_DLocation1.AutoSize = true;
-            this.label_DLocation1.Location = new System.Drawing.Point(354, 22);
-            this.label_DLocation1.Name = "label_DLocation1";
-            this.label_DLocation1.Size = new System.Drawing.Size(62, 17);
-            this.label_DLocation1.TabIndex = 2;
-            this.label_DLocation1.Text = "→修改为↓";
             // 
             // label7
             // 
@@ -1421,6 +1214,18 @@
             this.listBox_DLocation2.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation2.TabIndex = 3;
             // 
+            // tabPage03
+            // 
+            this.tabPage03.Controls.Add(this.label8);
+            this.tabPage03.Controls.Add(this.textBox_DLocation3);
+            this.tabPage03.Controls.Add(this.listBox_DLocation3);
+            this.tabPage03.Location = new System.Drawing.Point(4, 26);
+            this.tabPage03.Name = "tabPage03";
+            this.tabPage03.Size = new System.Drawing.Size(544, 101);
+            this.tabPage03.TabIndex = 2;
+            this.tabPage03.Text = "Location3";
+            this.tabPage03.UseVisualStyleBackColor = true;
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -1447,6 +1252,18 @@
             this.listBox_DLocation3.Name = "listBox_DLocation3";
             this.listBox_DLocation3.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation3.TabIndex = 3;
+            // 
+            // tabPage04
+            // 
+            this.tabPage04.Controls.Add(this.label9);
+            this.tabPage04.Controls.Add(this.textBox_DLocation4);
+            this.tabPage04.Controls.Add(this.listBox_DLocation4);
+            this.tabPage04.Location = new System.Drawing.Point(4, 26);
+            this.tabPage04.Name = "tabPage04";
+            this.tabPage04.Size = new System.Drawing.Size(544, 101);
+            this.tabPage04.TabIndex = 3;
+            this.tabPage04.Text = "Location4";
+            this.tabPage04.UseVisualStyleBackColor = true;
             // 
             // label9
             // 
@@ -1475,6 +1292,18 @@
             this.listBox_DLocation4.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation4.TabIndex = 3;
             // 
+            // tabPage05
+            // 
+            this.tabPage05.Controls.Add(this.label10);
+            this.tabPage05.Controls.Add(this.textBox_DLocation5);
+            this.tabPage05.Controls.Add(this.listBox_DLocation5);
+            this.tabPage05.Location = new System.Drawing.Point(4, 26);
+            this.tabPage05.Name = "tabPage05";
+            this.tabPage05.Size = new System.Drawing.Size(544, 101);
+            this.tabPage05.TabIndex = 4;
+            this.tabPage05.Text = "Location5";
+            this.tabPage05.UseVisualStyleBackColor = true;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -1501,6 +1330,18 @@
             this.listBox_DLocation5.Name = "listBox_DLocation5";
             this.listBox_DLocation5.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation5.TabIndex = 3;
+            // 
+            // tabPage06
+            // 
+            this.tabPage06.Controls.Add(this.label11);
+            this.tabPage06.Controls.Add(this.textBox_DLocation6);
+            this.tabPage06.Controls.Add(this.listBox_DLocation6);
+            this.tabPage06.Location = new System.Drawing.Point(4, 26);
+            this.tabPage06.Name = "tabPage06";
+            this.tabPage06.Size = new System.Drawing.Size(544, 101);
+            this.tabPage06.TabIndex = 5;
+            this.tabPage06.Text = "Location6";
+            this.tabPage06.UseVisualStyleBackColor = true;
             // 
             // label11
             // 
@@ -1529,6 +1370,18 @@
             this.listBox_DLocation6.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation6.TabIndex = 3;
             // 
+            // tabPage07
+            // 
+            this.tabPage07.Controls.Add(this.label12);
+            this.tabPage07.Controls.Add(this.textBox_DLocation7);
+            this.tabPage07.Controls.Add(this.listBox_DLocation7);
+            this.tabPage07.Location = new System.Drawing.Point(4, 26);
+            this.tabPage07.Name = "tabPage07";
+            this.tabPage07.Size = new System.Drawing.Size(544, 101);
+            this.tabPage07.TabIndex = 6;
+            this.tabPage07.Text = "Location7";
+            this.tabPage07.UseVisualStyleBackColor = true;
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -1555,6 +1408,18 @@
             this.listBox_DLocation7.Name = "listBox_DLocation7";
             this.listBox_DLocation7.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation7.TabIndex = 3;
+            // 
+            // tabPage08
+            // 
+            this.tabPage08.Controls.Add(this.label13);
+            this.tabPage08.Controls.Add(this.textBox_DLocation8);
+            this.tabPage08.Controls.Add(this.listBox_DLocation8);
+            this.tabPage08.Location = new System.Drawing.Point(4, 26);
+            this.tabPage08.Name = "tabPage08";
+            this.tabPage08.Size = new System.Drawing.Size(544, 101);
+            this.tabPage08.TabIndex = 7;
+            this.tabPage08.Text = "Location8";
+            this.tabPage08.UseVisualStyleBackColor = true;
             // 
             // label13
             // 
@@ -1583,6 +1448,18 @@
             this.listBox_DLocation8.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation8.TabIndex = 3;
             // 
+            // tabPage09
+            // 
+            this.tabPage09.Controls.Add(this.label14);
+            this.tabPage09.Controls.Add(this.textBox_DLocation9);
+            this.tabPage09.Controls.Add(this.listBox_DLocation9);
+            this.tabPage09.Location = new System.Drawing.Point(4, 26);
+            this.tabPage09.Name = "tabPage09";
+            this.tabPage09.Size = new System.Drawing.Size(544, 101);
+            this.tabPage09.TabIndex = 8;
+            this.tabPage09.Text = "Location9";
+            this.tabPage09.UseVisualStyleBackColor = true;
+            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -1609,6 +1486,18 @@
             this.listBox_DLocation9.Name = "listBox_DLocation9";
             this.listBox_DLocation9.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation9.TabIndex = 3;
+            // 
+            // tabPage010
+            // 
+            this.tabPage010.Controls.Add(this.label15);
+            this.tabPage010.Controls.Add(this.textBox_DLocation10);
+            this.tabPage010.Controls.Add(this.listBox_DLocation10);
+            this.tabPage010.Location = new System.Drawing.Point(4, 26);
+            this.tabPage010.Name = "tabPage010";
+            this.tabPage010.Size = new System.Drawing.Size(544, 101);
+            this.tabPage010.TabIndex = 9;
+            this.tabPage010.Text = "Location10";
+            this.tabPage010.UseVisualStyleBackColor = true;
             // 
             // label15
             // 
@@ -1637,6 +1526,18 @@
             this.listBox_DLocation10.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation10.TabIndex = 3;
             // 
+            // tabPage011
+            // 
+            this.tabPage011.Controls.Add(this.label16);
+            this.tabPage011.Controls.Add(this.textBox10);
+            this.tabPage011.Controls.Add(this.listBox_DLocation11);
+            this.tabPage011.Location = new System.Drawing.Point(4, 26);
+            this.tabPage011.Name = "tabPage011";
+            this.tabPage011.Size = new System.Drawing.Size(544, 101);
+            this.tabPage011.TabIndex = 10;
+            this.tabPage011.Text = "Location11";
+            this.tabPage011.UseVisualStyleBackColor = true;
+            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -1663,6 +1564,18 @@
             this.listBox_DLocation11.Name = "listBox_DLocation11";
             this.listBox_DLocation11.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation11.TabIndex = 3;
+            // 
+            // tabPage012
+            // 
+            this.tabPage012.Controls.Add(this.label17);
+            this.tabPage012.Controls.Add(this.textBox11);
+            this.tabPage012.Controls.Add(this.listBox_DLocation12);
+            this.tabPage012.Location = new System.Drawing.Point(4, 26);
+            this.tabPage012.Name = "tabPage012";
+            this.tabPage012.Size = new System.Drawing.Size(544, 101);
+            this.tabPage012.TabIndex = 11;
+            this.tabPage012.Text = "Location12";
+            this.tabPage012.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
@@ -1691,6 +1604,18 @@
             this.listBox_DLocation12.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation12.TabIndex = 3;
             // 
+            // tabPage013
+            // 
+            this.tabPage013.Controls.Add(this.label18);
+            this.tabPage013.Controls.Add(this.textBox12);
+            this.tabPage013.Controls.Add(this.listBox_DLocation13);
+            this.tabPage013.Location = new System.Drawing.Point(4, 26);
+            this.tabPage013.Name = "tabPage013";
+            this.tabPage013.Size = new System.Drawing.Size(544, 101);
+            this.tabPage013.TabIndex = 12;
+            this.tabPage013.Text = "Location13";
+            this.tabPage013.UseVisualStyleBackColor = true;
+            // 
             // label18
             // 
             this.label18.AutoSize = true;
@@ -1717,6 +1642,18 @@
             this.listBox_DLocation13.Name = "listBox_DLocation13";
             this.listBox_DLocation13.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation13.TabIndex = 3;
+            // 
+            // tabPage014
+            // 
+            this.tabPage014.Controls.Add(this.label19);
+            this.tabPage014.Controls.Add(this.textBox13);
+            this.tabPage014.Controls.Add(this.listBox_DLocation14);
+            this.tabPage014.Location = new System.Drawing.Point(4, 26);
+            this.tabPage014.Name = "tabPage014";
+            this.tabPage014.Size = new System.Drawing.Size(544, 101);
+            this.tabPage014.TabIndex = 13;
+            this.tabPage014.Text = "Location14";
+            this.tabPage014.UseVisualStyleBackColor = true;
             // 
             // label19
             // 
@@ -1745,6 +1682,18 @@
             this.listBox_DLocation14.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation14.TabIndex = 3;
             // 
+            // tabPage015
+            // 
+            this.tabPage015.Controls.Add(this.label20);
+            this.tabPage015.Controls.Add(this.textBox14);
+            this.tabPage015.Controls.Add(this.listBox_DLocation15);
+            this.tabPage015.Location = new System.Drawing.Point(4, 26);
+            this.tabPage015.Name = "tabPage015";
+            this.tabPage015.Size = new System.Drawing.Size(544, 101);
+            this.tabPage015.TabIndex = 14;
+            this.tabPage015.Text = "Location15";
+            this.tabPage015.UseVisualStyleBackColor = true;
+            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -1771,6 +1720,18 @@
             this.listBox_DLocation15.Name = "listBox_DLocation15";
             this.listBox_DLocation15.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation15.TabIndex = 3;
+            // 
+            // tabPage017
+            // 
+            this.tabPage017.Controls.Add(this.label21);
+            this.tabPage017.Controls.Add(this.textBox15);
+            this.tabPage017.Controls.Add(this.listBox_DLocation17);
+            this.tabPage017.Location = new System.Drawing.Point(4, 26);
+            this.tabPage017.Name = "tabPage017";
+            this.tabPage017.Size = new System.Drawing.Size(544, 101);
+            this.tabPage017.TabIndex = 15;
+            this.tabPage017.Text = "Location17";
+            this.tabPage017.UseVisualStyleBackColor = true;
             // 
             // label21
             // 
@@ -1799,6 +1760,18 @@
             this.listBox_DLocation17.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation17.TabIndex = 3;
             // 
+            // tabPage018
+            // 
+            this.tabPage018.Controls.Add(this.label22);
+            this.tabPage018.Controls.Add(this.textBox16);
+            this.tabPage018.Controls.Add(this.listBox_DLocation18);
+            this.tabPage018.Location = new System.Drawing.Point(4, 26);
+            this.tabPage018.Name = "tabPage018";
+            this.tabPage018.Size = new System.Drawing.Size(544, 101);
+            this.tabPage018.TabIndex = 16;
+            this.tabPage018.Text = "Location18";
+            this.tabPage018.UseVisualStyleBackColor = true;
+            // 
             // label22
             // 
             this.label22.AutoSize = true;
@@ -1825,6 +1798,18 @@
             this.listBox_DLocation18.Name = "listBox_DLocation18";
             this.listBox_DLocation18.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation18.TabIndex = 3;
+            // 
+            // tabPage019
+            // 
+            this.tabPage019.Controls.Add(this.label23);
+            this.tabPage019.Controls.Add(this.textBox17);
+            this.tabPage019.Controls.Add(this.listBox_DLocation19);
+            this.tabPage019.Location = new System.Drawing.Point(4, 26);
+            this.tabPage019.Name = "tabPage019";
+            this.tabPage019.Size = new System.Drawing.Size(544, 101);
+            this.tabPage019.TabIndex = 17;
+            this.tabPage019.Text = "Location19";
+            this.tabPage019.UseVisualStyleBackColor = true;
             // 
             // label23
             // 
@@ -1853,6 +1838,18 @@
             this.listBox_DLocation19.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation19.TabIndex = 3;
             // 
+            // tabPage020
+            // 
+            this.tabPage020.Controls.Add(this.label24);
+            this.tabPage020.Controls.Add(this.textBox18);
+            this.tabPage020.Controls.Add(this.listBox_DLocation20);
+            this.tabPage020.Location = new System.Drawing.Point(4, 26);
+            this.tabPage020.Name = "tabPage020";
+            this.tabPage020.Size = new System.Drawing.Size(544, 101);
+            this.tabPage020.TabIndex = 18;
+            this.tabPage020.Text = "Location20";
+            this.tabPage020.UseVisualStyleBackColor = true;
+            // 
             // label24
             // 
             this.label24.AutoSize = true;
@@ -1879,6 +1876,18 @@
             this.listBox_DLocation20.Name = "listBox_DLocation20";
             this.listBox_DLocation20.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation20.TabIndex = 3;
+            // 
+            // timer_Egg
+            // 
+            this.timer_Egg.Interval = 1;
+            this.timer_Egg.Tick += new System.EventHandler(this.timer_Egg_Tick);
+            // 
+            // 更新日志ToolStripMenuItem
+            // 
+            this.更新日志ToolStripMenuItem.Name = "更新日志ToolStripMenuItem";
+            this.更新日志ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.更新日志ToolStripMenuItem.Text = "更新日志";
+            this.更新日志ToolStripMenuItem.Click += new System.EventHandler(this.更新日志ToolStripMenuItem_Click);
             // 
             // Main_Window
             // 
@@ -2156,5 +2165,6 @@
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.ListBox listBox_DLocation20;
+        private System.Windows.Forms.ToolStripMenuItem 更新日志ToolStripMenuItem;
     }
 }
