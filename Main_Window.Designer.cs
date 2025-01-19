@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_Window));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.程序ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.最终协议ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.更新日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于程序ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label_GamePath_Title = new System.Windows.Forms.Label();
             this.textBox_GamePath = new System.Windows.Forms.TextBox();
@@ -158,42 +158,40 @@
             this.listBox_DLocation10 = new System.Windows.Forms.ListBox();
             this.tabPage011 = new System.Windows.Forms.TabPage();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox_DLocation11 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation11 = new System.Windows.Forms.ListBox();
             this.tabPage012 = new System.Windows.Forms.TabPage();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox_DLocation12 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation12 = new System.Windows.Forms.ListBox();
             this.tabPage013 = new System.Windows.Forms.TabPage();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox_DLocation13 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation13 = new System.Windows.Forms.ListBox();
             this.tabPage014 = new System.Windows.Forms.TabPage();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox_DLocation14 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation14 = new System.Windows.Forms.ListBox();
             this.tabPage015 = new System.Windows.Forms.TabPage();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox_DLocation15 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation15 = new System.Windows.Forms.ListBox();
             this.tabPage017 = new System.Windows.Forms.TabPage();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox_DLocation17 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation17 = new System.Windows.Forms.ListBox();
             this.tabPage018 = new System.Windows.Forms.TabPage();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox_DLocation18 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation18 = new System.Windows.Forms.ListBox();
             this.tabPage019 = new System.Windows.Forms.TabPage();
             this.label23 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox_DLocation19 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation19 = new System.Windows.Forms.ListBox();
             this.tabPage020 = new System.Windows.Forms.TabPage();
             this.label24 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox_DLocation20 = new System.Windows.Forms.TextBox();
             this.listBox_DLocation20 = new System.Windows.Forms.ListBox();
-            this.timer_Egg = new System.Windows.Forms.Timer(this.components);
-            this.更新日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox_LanguageList.SuspendLayout();
             this.groupBox_LanguageSetting.SuspendLayout();
@@ -270,14 +268,21 @@
             // 最终协议ToolStripMenuItem
             // 
             this.最终协议ToolStripMenuItem.Name = "最终协议ToolStripMenuItem";
-            this.最终协议ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.最终协议ToolStripMenuItem.Text = "最终协议";
+            this.最终协议ToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.最终协议ToolStripMenuItem.Text = "最终许可协议(EULA)";
             this.最终协议ToolStripMenuItem.Click += new System.EventHandler(this.最终协议ToolStripMenuItem_Click);
+            // 
+            // 更新日志ToolStripMenuItem
+            // 
+            this.更新日志ToolStripMenuItem.Name = "更新日志ToolStripMenuItem";
+            this.更新日志ToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.更新日志ToolStripMenuItem.Text = "更新日志";
+            this.更新日志ToolStripMenuItem.Click += new System.EventHandler(this.更新日志ToolStripMenuItem_Click);
             // 
             // 关于程序ToolStripMenuItem
             // 
             this.关于程序ToolStripMenuItem.Name = "关于程序ToolStripMenuItem";
-            this.关于程序ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.关于程序ToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.关于程序ToolStripMenuItem.Text = "关于程序";
             this.关于程序ToolStripMenuItem.Click += new System.EventHandler(this.关于程序ToolStripMenuItem_Click);
             // 
@@ -357,6 +362,7 @@
             // 
             this.groupBox_LanguageSetting.Controls.Add(this.textBox_LS_DisplayName);
             this.groupBox_LanguageSetting.Controls.Add(this.label_LS_DisplayName_Title);
+            this.groupBox_LanguageSetting.Enabled = false;
             this.groupBox_LanguageSetting.Location = new System.Drawing.Point(16, 265);
             this.groupBox_LanguageSetting.Name = "groupBox_LanguageSetting";
             this.groupBox_LanguageSetting.Size = new System.Drawing.Size(726, 57);
@@ -398,6 +404,7 @@
             this.groupBox_Ach.Controls.Add(this.textBox_Ach_Set);
             this.groupBox_Ach.Controls.Add(this.label_Ach_Set_Title);
             this.groupBox_Ach.Controls.Add(this.listBox_Ach);
+            this.groupBox_Ach.Enabled = false;
             this.groupBox_Ach.Location = new System.Drawing.Point(181, 60);
             this.groupBox_Ach.Name = "groupBox_Ach";
             this.groupBox_Ach.Size = new System.Drawing.Size(184, 199);
@@ -439,6 +446,7 @@
             this.groupBox_Cloth.Controls.Add(this.textBox_Cloth_Set);
             this.groupBox_Cloth.Controls.Add(this.label_Cloth_Set_Title);
             this.groupBox_Cloth.Controls.Add(this.listBox_Cloth);
+            this.groupBox_Cloth.Enabled = false;
             this.groupBox_Cloth.Location = new System.Drawing.Point(371, 60);
             this.groupBox_Cloth.Name = "groupBox_Cloth";
             this.groupBox_Cloth.Size = new System.Drawing.Size(183, 199);
@@ -480,6 +488,7 @@
             this.groupBox_Croe.Controls.Add(this.textBox_Croe_Set);
             this.groupBox_Croe.Controls.Add(this.label_Croe_Set_Title);
             this.groupBox_Croe.Controls.Add(this.listBox_Croe);
+            this.groupBox_Croe.Enabled = false;
             this.groupBox_Croe.Location = new System.Drawing.Point(560, 60);
             this.groupBox_Croe.Name = "groupBox_Croe";
             this.groupBox_Croe.Size = new System.Drawing.Size(183, 199);
@@ -869,7 +878,7 @@
             this.textBox_Location10.Size = new System.Drawing.Size(225, 23);
             this.textBox_Location10.TabIndex = 12;
             this.textBox_Location10.Text = "Unknown";
-            this.textBox_Location10.Leave += new System.EventHandler(this.listBox_Location10_SelectedIndexChanged);
+            this.textBox_Location10.Leave += new System.EventHandler(this.textBox_Location10_Leave);
             // 
             // listBox_Location10
             // 
@@ -1090,6 +1099,7 @@
             // groupBox_Location
             // 
             this.groupBox_Location.Controls.Add(this.tabControl_Location);
+            this.groupBox_Location.Enabled = false;
             this.groupBox_Location.Location = new System.Drawing.Point(749, 30);
             this.groupBox_Location.Name = "groupBox_Location";
             this.groupBox_Location.Size = new System.Drawing.Size(257, 197);
@@ -1100,6 +1110,7 @@
             // groupBox_Talk
             // 
             this.groupBox_Talk.Controls.Add(this.tabControl_DLocation);
+            this.groupBox_Talk.Enabled = false;
             this.groupBox_Talk.Location = new System.Drawing.Point(16, 328);
             this.groupBox_Talk.Name = "groupBox_Talk";
             this.groupBox_Talk.Size = new System.Drawing.Size(564, 159);
@@ -1133,6 +1144,7 @@
             this.tabControl_DLocation.SelectedIndex = 0;
             this.tabControl_DLocation.Size = new System.Drawing.Size(552, 131);
             this.tabControl_DLocation.TabIndex = 0;
+            this.tabControl_DLocation.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation12_SelectedIndexChanged);
             // 
             // tabPage01
             // 
@@ -1164,6 +1176,7 @@
             this.textBox_DLocation1.Size = new System.Drawing.Size(184, 23);
             this.textBox_DLocation1.TabIndex = 1;
             this.textBox_DLocation1.Text = "Unknown";
+            this.textBox_DLocation1.Leave += new System.EventHandler(this.textBox_DLocation1_Leave);
             // 
             // listBox_DLocation1
             // 
@@ -1173,6 +1186,7 @@
             this.listBox_DLocation1.Name = "listBox_DLocation1";
             this.listBox_DLocation1.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation1.TabIndex = 0;
+            this.listBox_DLocation1.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation1_SelectedIndexChanged);
             // 
             // tabPage02
             // 
@@ -1213,6 +1227,7 @@
             this.listBox_DLocation2.Name = "listBox_DLocation2";
             this.listBox_DLocation2.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation2.TabIndex = 3;
+            this.listBox_DLocation2.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation2_SelectedIndexChanged);
             // 
             // tabPage03
             // 
@@ -1252,6 +1267,7 @@
             this.listBox_DLocation3.Name = "listBox_DLocation3";
             this.listBox_DLocation3.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation3.TabIndex = 3;
+            this.listBox_DLocation3.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation3_SelectedIndexChanged);
             // 
             // tabPage04
             // 
@@ -1291,6 +1307,7 @@
             this.listBox_DLocation4.Name = "listBox_DLocation4";
             this.listBox_DLocation4.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation4.TabIndex = 3;
+            this.listBox_DLocation4.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation4_SelectedIndexChanged);
             // 
             // tabPage05
             // 
@@ -1330,6 +1347,7 @@
             this.listBox_DLocation5.Name = "listBox_DLocation5";
             this.listBox_DLocation5.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation5.TabIndex = 3;
+            this.listBox_DLocation5.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation5_SelectedIndexChanged);
             // 
             // tabPage06
             // 
@@ -1369,6 +1387,7 @@
             this.listBox_DLocation6.Name = "listBox_DLocation6";
             this.listBox_DLocation6.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation6.TabIndex = 3;
+            this.listBox_DLocation6.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation6_SelectedIndexChanged);
             // 
             // tabPage07
             // 
@@ -1408,6 +1427,7 @@
             this.listBox_DLocation7.Name = "listBox_DLocation7";
             this.listBox_DLocation7.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation7.TabIndex = 3;
+            this.listBox_DLocation7.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation7_SelectedIndexChanged);
             // 
             // tabPage08
             // 
@@ -1447,6 +1467,7 @@
             this.listBox_DLocation8.Name = "listBox_DLocation8";
             this.listBox_DLocation8.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation8.TabIndex = 3;
+            this.listBox_DLocation8.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation8_SelectedIndexChanged);
             // 
             // tabPage09
             // 
@@ -1486,6 +1507,7 @@
             this.listBox_DLocation9.Name = "listBox_DLocation9";
             this.listBox_DLocation9.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation9.TabIndex = 3;
+            this.listBox_DLocation9.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation9_SelectedIndexChanged);
             // 
             // tabPage010
             // 
@@ -1525,11 +1547,12 @@
             this.listBox_DLocation10.Name = "listBox_DLocation10";
             this.listBox_DLocation10.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation10.TabIndex = 3;
+            this.listBox_DLocation10.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation10_SelectedIndexChanged);
             // 
             // tabPage011
             // 
             this.tabPage011.Controls.Add(this.label16);
-            this.tabPage011.Controls.Add(this.textBox10);
+            this.tabPage011.Controls.Add(this.textBox_DLocation11);
             this.tabPage011.Controls.Add(this.listBox_DLocation11);
             this.tabPage011.Location = new System.Drawing.Point(4, 26);
             this.tabPage011.Name = "tabPage011";
@@ -1547,14 +1570,14 @@
             this.label16.TabIndex = 5;
             this.label16.Text = "→修改为↓";
             // 
-            // textBox10
+            // textBox_DLocation11
             // 
-            this.textBox10.Enabled = false;
-            this.textBox10.Location = new System.Drawing.Point(354, 42);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(184, 23);
-            this.textBox10.TabIndex = 4;
-            this.textBox10.Text = "Unknown";
+            this.textBox_DLocation11.Enabled = false;
+            this.textBox_DLocation11.Location = new System.Drawing.Point(354, 42);
+            this.textBox_DLocation11.Name = "textBox_DLocation11";
+            this.textBox_DLocation11.Size = new System.Drawing.Size(184, 23);
+            this.textBox_DLocation11.TabIndex = 4;
+            this.textBox_DLocation11.Text = "Unknown";
             // 
             // listBox_DLocation11
             // 
@@ -1564,11 +1587,12 @@
             this.listBox_DLocation11.Name = "listBox_DLocation11";
             this.listBox_DLocation11.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation11.TabIndex = 3;
+            this.listBox_DLocation11.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation11_SelectedIndexChanged);
             // 
             // tabPage012
             // 
             this.tabPage012.Controls.Add(this.label17);
-            this.tabPage012.Controls.Add(this.textBox11);
+            this.tabPage012.Controls.Add(this.textBox_DLocation12);
             this.tabPage012.Controls.Add(this.listBox_DLocation12);
             this.tabPage012.Location = new System.Drawing.Point(4, 26);
             this.tabPage012.Name = "tabPage012";
@@ -1586,28 +1610,31 @@
             this.label17.TabIndex = 5;
             this.label17.Text = "→修改为↓";
             // 
-            // textBox11
+            // textBox_DLocation12
             // 
-            this.textBox11.Enabled = false;
-            this.textBox11.Location = new System.Drawing.Point(354, 42);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(184, 23);
-            this.textBox11.TabIndex = 4;
-            this.textBox11.Text = "Unknown";
+            this.textBox_DLocation12.Enabled = false;
+            this.textBox_DLocation12.Location = new System.Drawing.Point(354, 42);
+            this.textBox_DLocation12.Name = "textBox_DLocation12";
+            this.textBox_DLocation12.Size = new System.Drawing.Size(184, 23);
+            this.textBox_DLocation12.TabIndex = 4;
+            this.textBox_DLocation12.Text = "Unknown";
             // 
             // listBox_DLocation12
             // 
             this.listBox_DLocation12.FormattingEnabled = true;
             this.listBox_DLocation12.ItemHeight = 17;
+            this.listBox_DLocation12.Items.AddRange(new object[] {
+            "Unknown"});
             this.listBox_DLocation12.Location = new System.Drawing.Point(6, 6);
             this.listBox_DLocation12.Name = "listBox_DLocation12";
             this.listBox_DLocation12.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation12.TabIndex = 3;
+            this.listBox_DLocation12.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation12_SelectedIndexChanged);
             // 
             // tabPage013
             // 
             this.tabPage013.Controls.Add(this.label18);
-            this.tabPage013.Controls.Add(this.textBox12);
+            this.tabPage013.Controls.Add(this.textBox_DLocation13);
             this.tabPage013.Controls.Add(this.listBox_DLocation13);
             this.tabPage013.Location = new System.Drawing.Point(4, 26);
             this.tabPage013.Name = "tabPage013";
@@ -1625,14 +1652,14 @@
             this.label18.TabIndex = 5;
             this.label18.Text = "→修改为↓";
             // 
-            // textBox12
+            // textBox_DLocation13
             // 
-            this.textBox12.Enabled = false;
-            this.textBox12.Location = new System.Drawing.Point(354, 42);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(184, 23);
-            this.textBox12.TabIndex = 4;
-            this.textBox12.Text = "Unknown";
+            this.textBox_DLocation13.Enabled = false;
+            this.textBox_DLocation13.Location = new System.Drawing.Point(354, 42);
+            this.textBox_DLocation13.Name = "textBox_DLocation13";
+            this.textBox_DLocation13.Size = new System.Drawing.Size(184, 23);
+            this.textBox_DLocation13.TabIndex = 4;
+            this.textBox_DLocation13.Text = "Unknown";
             // 
             // listBox_DLocation13
             // 
@@ -1642,11 +1669,12 @@
             this.listBox_DLocation13.Name = "listBox_DLocation13";
             this.listBox_DLocation13.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation13.TabIndex = 3;
+            this.listBox_DLocation13.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation13_SelectedIndexChanged);
             // 
             // tabPage014
             // 
             this.tabPage014.Controls.Add(this.label19);
-            this.tabPage014.Controls.Add(this.textBox13);
+            this.tabPage014.Controls.Add(this.textBox_DLocation14);
             this.tabPage014.Controls.Add(this.listBox_DLocation14);
             this.tabPage014.Location = new System.Drawing.Point(4, 26);
             this.tabPage014.Name = "tabPage014";
@@ -1664,14 +1692,14 @@
             this.label19.TabIndex = 5;
             this.label19.Text = "→修改为↓";
             // 
-            // textBox13
+            // textBox_DLocation14
             // 
-            this.textBox13.Enabled = false;
-            this.textBox13.Location = new System.Drawing.Point(354, 42);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(184, 23);
-            this.textBox13.TabIndex = 4;
-            this.textBox13.Text = "Unknown";
+            this.textBox_DLocation14.Enabled = false;
+            this.textBox_DLocation14.Location = new System.Drawing.Point(354, 42);
+            this.textBox_DLocation14.Name = "textBox_DLocation14";
+            this.textBox_DLocation14.Size = new System.Drawing.Size(184, 23);
+            this.textBox_DLocation14.TabIndex = 4;
+            this.textBox_DLocation14.Text = "Unknown";
             // 
             // listBox_DLocation14
             // 
@@ -1681,11 +1709,12 @@
             this.listBox_DLocation14.Name = "listBox_DLocation14";
             this.listBox_DLocation14.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation14.TabIndex = 3;
+            this.listBox_DLocation14.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation14_SelectedIndexChanged);
             // 
             // tabPage015
             // 
             this.tabPage015.Controls.Add(this.label20);
-            this.tabPage015.Controls.Add(this.textBox14);
+            this.tabPage015.Controls.Add(this.textBox_DLocation15);
             this.tabPage015.Controls.Add(this.listBox_DLocation15);
             this.tabPage015.Location = new System.Drawing.Point(4, 26);
             this.tabPage015.Name = "tabPage015";
@@ -1703,14 +1732,14 @@
             this.label20.TabIndex = 5;
             this.label20.Text = "→修改为↓";
             // 
-            // textBox14
+            // textBox_DLocation15
             // 
-            this.textBox14.Enabled = false;
-            this.textBox14.Location = new System.Drawing.Point(354, 42);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(184, 23);
-            this.textBox14.TabIndex = 4;
-            this.textBox14.Text = "Unknown";
+            this.textBox_DLocation15.Enabled = false;
+            this.textBox_DLocation15.Location = new System.Drawing.Point(354, 42);
+            this.textBox_DLocation15.Name = "textBox_DLocation15";
+            this.textBox_DLocation15.Size = new System.Drawing.Size(184, 23);
+            this.textBox_DLocation15.TabIndex = 4;
+            this.textBox_DLocation15.Text = "Unknown";
             // 
             // listBox_DLocation15
             // 
@@ -1720,11 +1749,12 @@
             this.listBox_DLocation15.Name = "listBox_DLocation15";
             this.listBox_DLocation15.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation15.TabIndex = 3;
+            this.listBox_DLocation15.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation15_SelectedIndexChanged);
             // 
             // tabPage017
             // 
             this.tabPage017.Controls.Add(this.label21);
-            this.tabPage017.Controls.Add(this.textBox15);
+            this.tabPage017.Controls.Add(this.textBox_DLocation17);
             this.tabPage017.Controls.Add(this.listBox_DLocation17);
             this.tabPage017.Location = new System.Drawing.Point(4, 26);
             this.tabPage017.Name = "tabPage017";
@@ -1742,14 +1772,14 @@
             this.label21.TabIndex = 5;
             this.label21.Text = "→修改为↓";
             // 
-            // textBox15
+            // textBox_DLocation17
             // 
-            this.textBox15.Enabled = false;
-            this.textBox15.Location = new System.Drawing.Point(354, 42);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(184, 23);
-            this.textBox15.TabIndex = 4;
-            this.textBox15.Text = "Unknown";
+            this.textBox_DLocation17.Enabled = false;
+            this.textBox_DLocation17.Location = new System.Drawing.Point(354, 42);
+            this.textBox_DLocation17.Name = "textBox_DLocation17";
+            this.textBox_DLocation17.Size = new System.Drawing.Size(184, 23);
+            this.textBox_DLocation17.TabIndex = 4;
+            this.textBox_DLocation17.Text = "Unknown";
             // 
             // listBox_DLocation17
             // 
@@ -1759,11 +1789,12 @@
             this.listBox_DLocation17.Name = "listBox_DLocation17";
             this.listBox_DLocation17.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation17.TabIndex = 3;
+            this.listBox_DLocation17.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation17_SelectedIndexChanged);
             // 
             // tabPage018
             // 
             this.tabPage018.Controls.Add(this.label22);
-            this.tabPage018.Controls.Add(this.textBox16);
+            this.tabPage018.Controls.Add(this.textBox_DLocation18);
             this.tabPage018.Controls.Add(this.listBox_DLocation18);
             this.tabPage018.Location = new System.Drawing.Point(4, 26);
             this.tabPage018.Name = "tabPage018";
@@ -1781,14 +1812,14 @@
             this.label22.TabIndex = 5;
             this.label22.Text = "→修改为↓";
             // 
-            // textBox16
+            // textBox_DLocation18
             // 
-            this.textBox16.Enabled = false;
-            this.textBox16.Location = new System.Drawing.Point(354, 42);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(184, 23);
-            this.textBox16.TabIndex = 4;
-            this.textBox16.Text = "Unknown";
+            this.textBox_DLocation18.Enabled = false;
+            this.textBox_DLocation18.Location = new System.Drawing.Point(354, 42);
+            this.textBox_DLocation18.Name = "textBox_DLocation18";
+            this.textBox_DLocation18.Size = new System.Drawing.Size(184, 23);
+            this.textBox_DLocation18.TabIndex = 4;
+            this.textBox_DLocation18.Text = "Unknown";
             // 
             // listBox_DLocation18
             // 
@@ -1798,11 +1829,12 @@
             this.listBox_DLocation18.Name = "listBox_DLocation18";
             this.listBox_DLocation18.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation18.TabIndex = 3;
+            this.listBox_DLocation18.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation18_SelectedIndexChanged);
             // 
             // tabPage019
             // 
             this.tabPage019.Controls.Add(this.label23);
-            this.tabPage019.Controls.Add(this.textBox17);
+            this.tabPage019.Controls.Add(this.textBox_DLocation19);
             this.tabPage019.Controls.Add(this.listBox_DLocation19);
             this.tabPage019.Location = new System.Drawing.Point(4, 26);
             this.tabPage019.Name = "tabPage019";
@@ -1820,14 +1852,14 @@
             this.label23.TabIndex = 5;
             this.label23.Text = "→修改为↓";
             // 
-            // textBox17
+            // textBox_DLocation19
             // 
-            this.textBox17.Enabled = false;
-            this.textBox17.Location = new System.Drawing.Point(354, 42);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(184, 23);
-            this.textBox17.TabIndex = 4;
-            this.textBox17.Text = "Unknown";
+            this.textBox_DLocation19.Enabled = false;
+            this.textBox_DLocation19.Location = new System.Drawing.Point(354, 42);
+            this.textBox_DLocation19.Name = "textBox_DLocation19";
+            this.textBox_DLocation19.Size = new System.Drawing.Size(184, 23);
+            this.textBox_DLocation19.TabIndex = 4;
+            this.textBox_DLocation19.Text = "Unknown";
             // 
             // listBox_DLocation19
             // 
@@ -1837,11 +1869,12 @@
             this.listBox_DLocation19.Name = "listBox_DLocation19";
             this.listBox_DLocation19.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation19.TabIndex = 3;
+            this.listBox_DLocation19.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation19_SelectedIndexChanged);
             // 
             // tabPage020
             // 
             this.tabPage020.Controls.Add(this.label24);
-            this.tabPage020.Controls.Add(this.textBox18);
+            this.tabPage020.Controls.Add(this.textBox_DLocation20);
             this.tabPage020.Controls.Add(this.listBox_DLocation20);
             this.tabPage020.Location = new System.Drawing.Point(4, 26);
             this.tabPage020.Name = "tabPage020";
@@ -1859,14 +1892,14 @@
             this.label24.TabIndex = 5;
             this.label24.Text = "→修改为↓";
             // 
-            // textBox18
+            // textBox_DLocation20
             // 
-            this.textBox18.Enabled = false;
-            this.textBox18.Location = new System.Drawing.Point(354, 42);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(184, 23);
-            this.textBox18.TabIndex = 4;
-            this.textBox18.Text = "Unknown";
+            this.textBox_DLocation20.Enabled = false;
+            this.textBox_DLocation20.Location = new System.Drawing.Point(354, 42);
+            this.textBox_DLocation20.Name = "textBox_DLocation20";
+            this.textBox_DLocation20.Size = new System.Drawing.Size(184, 23);
+            this.textBox_DLocation20.TabIndex = 4;
+            this.textBox_DLocation20.Text = "Unknown";
             // 
             // listBox_DLocation20
             // 
@@ -1876,18 +1909,7 @@
             this.listBox_DLocation20.Name = "listBox_DLocation20";
             this.listBox_DLocation20.Size = new System.Drawing.Size(342, 89);
             this.listBox_DLocation20.TabIndex = 3;
-            // 
-            // timer_Egg
-            // 
-            this.timer_Egg.Interval = 1;
-            this.timer_Egg.Tick += new System.EventHandler(this.timer_Egg_Tick);
-            // 
-            // 更新日志ToolStripMenuItem
-            // 
-            this.更新日志ToolStripMenuItem.Name = "更新日志ToolStripMenuItem";
-            this.更新日志ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.更新日志ToolStripMenuItem.Text = "更新日志";
-            this.更新日志ToolStripMenuItem.Click += new System.EventHandler(this.更新日志ToolStripMenuItem_Click);
+            this.listBox_DLocation20.SelectedIndexChanged += new System.EventHandler(this.listBox_DLocation20_SelectedIndexChanged);
             // 
             // Main_Window
             // 
@@ -2107,7 +2129,6 @@
         private System.Windows.Forms.TabPage tabPage018;
         private System.Windows.Forms.TabPage tabPage019;
         private System.Windows.Forms.TabPage tabPage020;
-        private System.Windows.Forms.Timer timer_Egg;
         private System.Windows.Forms.Label label_DLocation1;
         private System.Windows.Forms.TextBox textBox_DLocation1;
         private System.Windows.Forms.ListBox listBox_DLocation1;
@@ -2139,32 +2160,32 @@
         private System.Windows.Forms.TextBox textBox_DLocation10;
         private System.Windows.Forms.ListBox listBox_DLocation10;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox_DLocation11;
         private System.Windows.Forms.ListBox listBox_DLocation11;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.ListBox listBox_DLocation12;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox_DLocation13;
         private System.Windows.Forms.ListBox listBox_DLocation13;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox_DLocation14;
         private System.Windows.Forms.ListBox listBox_DLocation14;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox_DLocation15;
         private System.Windows.Forms.ListBox listBox_DLocation15;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox_DLocation17;
         private System.Windows.Forms.ListBox listBox_DLocation17;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox_DLocation18;
         private System.Windows.Forms.ListBox listBox_DLocation18;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox_DLocation19;
         private System.Windows.Forms.ListBox listBox_DLocation19;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox_DLocation20;
         private System.Windows.Forms.ListBox listBox_DLocation20;
         private System.Windows.Forms.ToolStripMenuItem 更新日志ToolStripMenuItem;
+        private System.Windows.Forms.TextBox textBox_DLocation12;
     }
 }
